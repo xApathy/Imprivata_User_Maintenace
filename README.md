@@ -53,7 +53,7 @@ If you see the file, you are ready for the next step.
 _DO NOT place it in the "Exports" sub-directory, as that directory gets parsed by the script_
 2. Edit lines 2 - 14 of the script to suit your environment.</br>
 ```
-$ImprivataLicences = 1000 # This is the toal number of Imprivata Licenses that you have.
+$ImprivataLicences = 1000 # This is the total number of Imprivata Licenses that you have.
 $InactivityTime = 42 # Amount of DAYS since last logon. Any account LAST LOGON DATE greater than this number will be removed.
 $UnenrolledDaysLimit = 42 # Amount of DAYS that the account remains UNENROLLED greater than this number will be removed.
 $AdSecurityGroup = "imprivata_users" # ActiveDirectory Security group in which the Imprivata users are assigned.
